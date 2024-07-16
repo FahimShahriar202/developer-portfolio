@@ -42,6 +42,8 @@ nav li a{
   color: #474747 ;
 }
 
+/* Shared classes */
+
 /* button style */
 .btn-1{
   background-color: #FD6E0A;
@@ -52,6 +54,22 @@ nav li a{
   border-radius: 5px;
   font-size: 20px;
 }
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+.secondary-bg{
+  background-color: #FFF8F3;
+
+}
+
+
 
 /* navbar header style */
 .header{
@@ -86,4 +104,32 @@ nav li a{
 .banner-dp{
   width: 580px;
 
+}
+
+/* main tag style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+  
+}
+/* about section */
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+
+}
+
+/* 2nd slide items */
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title{
+  color:#757575
+}
+.item-description{
+  font-weight: 600px;
 }
