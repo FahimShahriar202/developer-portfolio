@@ -1,0 +1,89 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  margin-top: 50px 200px;
+}
+
+/*nav title style */
+.nav-title{
+  font-weight: 800px;
+  font-size: 45px;
+  margin: 0px 35px 0px 230px;
+}
+
+/* name coloring */
+.name-color{
+  color: #FD6E0A
+}
+
+
+/* navbar list item style */
+nav ul{
+  display: flex;
+  align-items: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dark-2{
+  color: #474747 ;
+}
+
+/* button style */
+.btn-1{
+  background-color: #FD6E0A;
+  color: #FFFFFF;
+  border: none;
+  font-weight: bold;
+  padding: 20px 35px 20px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* navbar header style */
+.header{
+  background-image: url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 230px;
+}
+
+.banner-content{
+  max-width: 580px;
+}
+.banner-greetings{
+  color: #474747 ;
+  font-size: 45px;
+  font-weight: 600px;
+}
+
+.banner-title{
+  font-size: 85px;
+  font-weight: bold;
+
+}
+
+/* banner profile pic */
+.banner-dp{
+  width: 580px;
+
+}
