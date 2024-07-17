@@ -157,3 +157,32 @@ main{
 .skill-description{
   color: #757575;
 }
+
+/* resume summery */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title{
+  color: #474747;
+  font-size: 30px;
+}
+.experience-title{
+  color: #757575;
+  font-size: 25px;
+}
+.experience-subtitle{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.experience-description{
+  color: #757575;
+}
+
+.summery-title{
+  margin-bottom: 30px;
+}
